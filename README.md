@@ -1,2 +1,4 @@
 # Battery-Degradation-Modelling
-Predicting battery capacity degradation using gaussian process regression model
+Being able to accurately predict the remaining useful life (RUL) of a lithium battery is can be very benificial to both consumers and producers of EVs and other electronics that are powered by lithium batteries. In the paper [Identifying degradation patterns of lithium ion batteries from impedance spectroscopy using machine learning](https://doi.org/10.1038/s41467-020-15235-7) the authors have presented a battery forecasting system by combining electrochemical impedance spectroscopy (EIS)—a real-time, non-invasive and information-rich measurement that is hitherto underused in battery diagnosis—with Gaussian process machine learning <br>
+
+In this project I have tried to recreate the model presented in the paper and see how well the model performs. The dataset used in this project is available [here](thttps://doi.org/10.5281/zenodo.3633835). The Battery.ipynb file containes the python project for data cleaning, data processing, model training and finally test results and comments
